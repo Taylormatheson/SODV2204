@@ -8,10 +8,24 @@ this is a sample readme file for gitHub example repo. I'm doing my best.
     2. item 2b
 3. google markdown help
 
-*stars make it italic*
+*stars make it italic*  
+**double stars make it bold**  
+***triple stars make it bold and italic***  
 
-**double stars make it bold**
+##images
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
 
-***triple stars make it bold and italic***
+##links
+http://github.com - automatic!
+[GitHub](http://github.com)
 
+##Blockquotes
+As Kanye West said:
 
+> We're living the future so
+> the present is our past.
+
+##Inline code
+I think you should use an
+`<addr>` element here instead.
