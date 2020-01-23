@@ -14,12 +14,12 @@ this is a sample readme file for gitHub example repo. I'm doing my best.
 (Two spaces at the end of a line of text will put the next line down one_
 
 ## images
-![Fill Murray](https://fillmurray.com/g/200/300)
-Format: ![bill murray](url)
+![Place Cage](https://www.placecage.com/200/300)
+
 
 ##links
-www.taylormatheson.ca - automatic!
-[Taylor Matheson](http://taylormatheson.ca)
+www.taylormatheson.ca - automatic!  
+ or make it a clickable word: [Taylor Matheson](http://taylormatheson.ca)
 
 ## Blockquotes
 As Kanye West said:
