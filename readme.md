@@ -9,5 +9,9 @@ this is a sample readme file for gitHub example repo. I'm doing my best.
 3. google markdown help
 
 *stars make it italic*
+
 **double stars make it bold**
-***triple stars do what?***
+
+***triple stars make it bold and italic***
+
+
