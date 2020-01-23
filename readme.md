@@ -11,21 +11,22 @@ this is a sample readme file for gitHub example repo. I'm doing my best.
 *stars make it italic*  
 **double stars make it bold**  
 ***triple stars make it bold and italic***  
+(Two spaces at the end of a line of text will put the next line down one_
 
-##images
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+## images
+![Fill Murray](https://fillmurray.com/g/200/300)
+Format: ![bill murray](url)
 
 ##links
-http://github.com - automatic!
-[GitHub](http://github.com)
+www.taylormatheson.ca - automatic!
+[Taylor Matheson](http://taylormatheson.ca)
 
-##Blockquotes
+## Blockquotes
 As Kanye West said:
 
 > We're living the future so
 > the present is our past.
 
-##Inline code
+## Inline code
 I think you should use an
 `<addr>` element here instead.
