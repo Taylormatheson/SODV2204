@@ -1,0 +1,22 @@
+<!--- Forms.  Know what type of input type it is: text, radio or submit-->
+<!-- under submit, don't worry about the action attribute.  That's for developer server-side.  the Value=Submit makes it a button-->
+<!-- target tells the thing to open a new tab.  target="blank"
+Each input field must have a name attribute field to be submitted.  If there isn't a name attribute, then the data won't go anywhere.
+
+<input type="text">	    Defines a one-line text input field
+<input type="radio">	Defines a radio button (for selecting one of many choices)
+<input type="submit">	Defines a submit button (for submitting the form)
+-->
+<!-- Fieldset creates a nice little box around your form -->
+<form>
+    <fieldset>
+      <legend>Personal information:</legend>
+      First name:<br>
+      <input type="text" name="firstname" value="Mickey"><br>
+      Last name:<br>
+      <input type="text" name="lastname" value="Mouse"><br><br>
+      <input type="submit" value="Submit">
+    </fieldset>
+  </form>
+
+  <!-- -->
