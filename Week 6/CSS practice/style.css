@@ -1,0 +1,27 @@
+/* p is the element selector and .word is the class selector*/
+
+.error{
+    color: red;
+}
+
+/* p.success.jazz should let me select all <p> with class success and jazzy. it doesn't work, and i don't know why*/
+p.success.jazzy{
+    color: rgb(156, 23, 209);
+}
+
+p.jazzy{
+    border: 1px solid rgb(5, 41, 107)
+}
+
+a[href="http://www.taylormatheson.ca"]{
+    background-color: yellowgreen;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a[href*="google"]{
+    color: burlywood;
+    background:black;
+    border: 2px solid red;
+}

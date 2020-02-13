@@ -1,0 +1,32 @@
+/* this is a single line comment - use it to leave notes about what css things tie in to the web page*/
+/*marks are lost in poor planning - plan ahead and make it pretty*/
+/* don't ever use the Universal selector.  Roger hates it*/
+/* don't repeat yourself*/
+
+
+html {
+    background: rgb(173, 215, 231)
+}
+
+h1{
+    border-bottom: 6px, solid, black;
+}
+
+h1, h3{
+    color: darkmagenta;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.headshot {
+    height: 25%;
+    width: 25%;
+    place-items: center;
+}
+
+p{
+    margin-left: 20px;
+    margin-right: 20px;   
+    font-family: 'Courier New', Courier, monospace;
+}
