@@ -1,0 +1,186 @@
+/* this is the ulitmate parent*/
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+/* this is for the header */
+header {
+    color: black; 
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+h1 {
+    padding: 1em;
+    background-color: yellow;
+    margin: 0;
+    }
+/* navigation*/
+nav {
+    background-color:rgb(65, 65, 65);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav a{
+    color: white;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+ul {
+    list-style-type: none;
+	list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+li {
+    margin: 0 1em 0 1em;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* Banner */
+main .banner {
+    background-image: url(./images/talking_heads-speaking_in_tongues.png );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 40vh;
+   }
+
+.banner h1 {
+    color: yellow;
+    background: none;
+    padding-left: 2%;
+}
+
+.banner h2 {
+    color: whitesmoke;
+    background: none;
+    padding-left: 2%;
+}
+.banner h3 {
+    color: whitesmoke;
+    background: none;
+    padding-left: 2%;
+}
+
+.banner section{
+    background-color: rgb(0,0,0,.8);
+    width: 80%;
+    margin-left: 10%;
+}
+
+img {
+    height: 30%;
+    position: absolute;
+    right: 14%;
+    top: 30%;
+    bottom: 2%;
+}
+
+/* Body */
+
+.everythingbutthebanner{
+    width:90%;
+    justify-content: center;
+
+}
+
+.fullarticle{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+
+.songlyrics{
+    margin-left: 2%;
+}
+.musictitle{
+    background-color: yellow;
+    text-transform: uppercase;
+    width: fit-content;
+    align-content: center;
+    margin-bottom: 0%;
+    font-weight: normal;
+    padding: 10px 15px;
+}
+
+.lyric {
+    border-style: none none none solid;
+    border-color: yellow;
+}
+
+.chorus{
+    margin-left: 50px;
+}
+
+/* .everythingbutthebanner h2{
+    background-color: yellow;
+} */
+
+aside{
+    width: 30%;
+    display: block;
+    background-color:rgb(65, 65, 65);
+    color: whitesmoke;
+    height:30%;
+    margin-top: 4%;
+   }
+p{
+    padding: 15px;
+    padding-top: 0%;
+}
+.about{
+    color: black;
+    background-color: yellow;
+    text-transform: capitalize;
+    margin-top: 0em;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 10px, 15px;
+}
+
+blockquote{
+    width: 75%;
+}
+
+.video{
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 5%;
+width: 80%;
+}
+
+iframe{
+    border-top: white 3px solid;
+    padding-top: 25px;
+    width: 100%;
+    
+}
+
+.citation{
+    background-color: yellow;
+    text-decoration: none;
+}
+
+footer{
+    padding:20px;
+    margin-top:2px;
+    margin-left: 20px;
+    text-align: center; 
+    border-top: yellow 3px solid;
+    
+}

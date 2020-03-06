@@ -5,19 +5,20 @@
 
 
 html {
-    background: rgb(173, 215, 231)
+    background: rgb(248, 210, 232)
 }
 
 h1{
     border-bottom: 6px, solid, black;
 }
 
+
+    
 h1, h3{
     color: darkmagenta;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
-
 
 .headshot {
     height: 25%;

@@ -1,0 +1,48 @@
+html {
+    box-sizing: border-box; /* this is important! because google it - it will save us from having oddly shaped boxes if our pixel number is wrong - like 300px boxes + 2 px elements which makes the size of the element maybe larger than the size that you've allocated for it*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px; /* this is the setting that the rest of the doc will inherit*/
+}
+
+.boxes1, .boxes2 {  /* aaaah! help! why doesnt that work? */
+    border: 2px solid green;
+}
+
+.first {
+    color: rgb(5, 51, 5);
+    font-size: 2em; /* this points the font of this class as a relation to the font set in the body (which is higher in the heirearchy*/
+    background-color: rgb(238, 144, 230);
+    border-bottom: 3px dotted black;
+}
+
+.box2 {
+    font-size: 1em;
+}
+
+.second {
+    color:white;
+    font-size: 1.2rem;
+    background-color: lightcoral;
+    border-bottom: 1px dotted darksalmon;
+}
+
+.boxes2 {
+    border: 2px solid darksalmon;
+
+    display:grid;
+/*     grid-template-columns: 300px;
+    grid-template-rows: 200px; */
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-brows: 1fr 1fr 1fr ;
+    border: 1px solid blue;
+}
+
+.boxes {
+    border: 1px solid rgb(14, 156, 14);
+}
+.box1 {
+    display: flex;
+    Justify-content: center;
+    alight-items: center;
+}
+/* recommended lesson - 
